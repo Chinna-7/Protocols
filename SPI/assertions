@@ -8,6 +8,7 @@
 8.When both CS selected/deselected then it drives Z or not
 
 */
+// assertions 
 //After CS whether the data transferring particular slave or not
 property cs_data_tx;
   (cs1_n ==0 || cs2_n == 0)
